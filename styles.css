@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-style h1 {
+    color: grey;
+    margin-bottom: 0px;
+}
+
+.header-style span {
+    color: black;
+}
+
+.header-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.dashbord-style img {
+    width: 500px;
+    padding-top: 20px;
+}
+
+input {
+    width: 224px;
+    border-radius: 10px;
+    padding: 8px;
+    border: 1px solid lightblue;
+}
+
+button {
+    width: 100px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: hsl(223, 100%, 88%);
+    border: none;
+    color: white;
+}
