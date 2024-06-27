@@ -61,4 +61,5 @@ button {
     background-color: hsl(223, 100%, 88%);
     border: none;
     color: white;
+    cursor: pointer;
 }
