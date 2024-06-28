@@ -10,6 +10,7 @@ notifyMe.addEventListener("click", function (event) {
         console.log("Error!!!!");
         createErrorMessage();
     } else {
+        inputText.style.border = "1px solid lightblue";
         errorMessage.innerHTML = "";
         inputText.value = ""
         console.log("Submitted!!!");

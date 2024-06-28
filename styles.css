@@ -54,11 +54,15 @@ input {
     border: 1px solid lightblue;
 }
 
+input:focus {
+    outline: none;
+}
+
 button {
     width: 100px;
     padding: 8px;
     border-radius: 10px;
-    background-color: hsl(223, 100%, 88%);
+    background-color: hsl(223, 76%, 55%);
     border: none;
     color: white;
     cursor: pointer;
